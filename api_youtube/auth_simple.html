@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8' />
+    <style type="text/css">
+        body{
+            background: #f4f4f4;
+            font-family: "Arial", sans-serif;
+            font-size: 14px;
+            color: #666;
+        }
+        
+        #container{
+            width: 800px;
+            margin: auto;
+            overflow: auto;
+            background: #fff;
+            padding: 15px;
+        }
+        li.titulo{
+            width: 500px;
+            display: inline-block;
+            padding-bottom: 5px;
+            border-bottom: #666 solid 1px;
+        }
+        li.estadisticas{
+            width: 80px;
+            display: inline-block;
+            padding-bottom: 5px;
+            border-bottom: #666 solid 1px;
+        }
+        
+    </style>
+    <script type="text/javascript" src="jquery-1.11.3.js"></script>
+    <script type="text/javascript" src="script_videos.js"></script>
+  </head>
+  <body>
+      <div id="container">
+          <h1>Videos de Youtube</h1><hr>
+          <ul>
+              <li class="titulo" style="font-size: 14px; font-weight: bold;">Titulo</li>
+              <li class="estadisticas" style="font-size: 14px; font-weight: bold;">Vistas</li>
+              <li class="estadisticas" style="font-size: 14px; font-weight: bold;">Tiempo</li>
+          </ul>
+          <ul id="results"></ul>
+      </div>
+  </body>
+</html>
